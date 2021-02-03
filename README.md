@@ -1,6 +1,6 @@
 # ictf Round 7
 ## Sanity Check
-**Description**
+### Description
 > Welcome to Round 7! DM flags to me to get points, and rise up on the leaderboard! Have fun and enjoy Round 7!
 
 **Attachments**
@@ -13,7 +13,7 @@ Misc
 
 **Explanation**
 
-Just submit `.flag ictf{Round_7_Sanity_Check}`\ \ \
+Just submit `.flag ictf{Round_7_Sanity_Check}`
 
 ## Inspector
 
@@ -28,9 +28,7 @@ https://imaginary.ml/
 **Category**
 
 Web
-\
-\
-\
+
 
 ## null
 **Description**
