@@ -13,10 +13,7 @@ Misc
 
 **Explanation**
 
-Just submit `.flag ictf{Round_7_Sanity_Check}`
-\
-\
-\
+Just submit `.flag ictf{Round_7_Sanity_Check}`\ \ \
 
 ## Inspector
 
