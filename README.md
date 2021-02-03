@@ -29,8 +29,18 @@ https://imaginary.ml/
 
 Web
 
+**Explanation**
 
-## null
+If you view page source on the website, you find a comment of the form 
+```html
+<!-- The flag is ictf{1nsp3ct_th3_s0urc3_c0de} -->
+```
+Therefore, we can just submit `.flag ictf{1nsp3ct_th3_s0urc3_c0de}`.
+
+
+
+
+## Null
 **Description**
 > Have a look at this message I found in an old chest. I also found its key. `key = [24, 28, 110, 126, 145, 200, 209, 222, 231, 332, 447, 460, 472, 476, 480, 569, 591, 629, 633, 650, 671, 695, 696, 699, 706, 833].` Can you decrypt it? 
 
