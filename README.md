@@ -13,7 +13,10 @@ Misc
 
 **Explanation**
 
-Just submit `.flag ictf{Round_7_Sanity_Check}`
+Just submit `.flag ictf{Round_7_Sanity_Check}`  
+
+
+
 
 ## Inspector
 
@@ -35,7 +38,7 @@ If you view page source on the website, you find a comment of the form
 ```html
 <!-- The flag is ictf{1nsp3ct_th3_s0urc3_c0de} -->
 ```
-Therefore, we can just submit `.flag ictf{1nsp3ct_th3_s0urc3_c0de}`.
+Therefore, we can just submit `.flag ictf{1nsp3ct_th3_s0urc3_c0de}`.  
 
 
 
@@ -63,15 +66,37 @@ for k in key:
     t += s[k-1]
 print(t)
 ```
-This prints out `ancientcryptoisfascinating` so we can just submit `.flag ictf{ancientcryptoisfascinating}`.
+This prints out `ancientcryptoisfascinating` so we can just submit `.flag ictf{ancientcryptoisfascinating}`.  
+
+
+
+ ## adminpassword
+**Description**
+>My friend Toby said this website had the most difficult protection in the world! Apparently, something is hidden! Could you help me break in?  
+
+
+**Attachments**
+http://oreos.ctfchallenge.ga:1337/  
+
+
+**Category** 
+Web Explotation
+
+
+**Explanation**
+
+
+
+
+
 <!-- ## Name
 **Description**
 >
 
 **Attachments**
 
+**Category**
 
 **Explanation**
 
-
-**Category** -->
+ -->
