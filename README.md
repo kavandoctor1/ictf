@@ -78,12 +78,15 @@ This prints out `ancientcryptoisfascinating` so we can just submit `.flag ictf{a
 I seem to have Lost my sugaR... can yoU find the differenCe?
 
 **Attachments**
+
 http://oreos.ctfchallenge.ga/
 
 **Category**
+
 Web Explotation
 
 **Explanation**
+
 Doing `curl -i` on the url, shows that it seems to send a cookie of the form `sugar=False`.  
 Therefore, we can try and override that cookie by doing something of the form:
 ```curl -L -v --cookie "sugar=True" -i http://oreos.ctfchallenge.ga/```
