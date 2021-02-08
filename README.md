@@ -83,7 +83,8 @@ https://fdownl.ga/A7C8E8F4CD
 
 Forensics
 
-**Explanation**
+**Explanation**  
+
 Put the image into a hex editor like https://hexed.it/, and towards the end you find the flag in the hex: ictf{w0w_st3gan0graphy!} so you can just submit `.flag ictf{w0w_st3gan0graphy!}`  
 
 
