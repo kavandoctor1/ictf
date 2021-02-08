@@ -70,6 +70,46 @@ This prints out `ancientcryptoisfascinating` so we can just submit `.flag ictf{a
 
 
 
+
+## where is the SUGAR...
+
+**Description**
+
+I seem to have Lost my sugaR... can yoU find the differenCe?
+
+**Attachments**
+http://oreos.ctfchallenge.ga/
+
+**Category**
+Web Explotation
+
+**Explanation**
+Doing `curl -i` on the url, shows that it seems to send a cookie of the form `sugar=False`.  
+Therefore, we can try and override that cookie by doing something of the form:
+`curl -L -v --cookie "sugar=True" -i http://oreos.ctfchallenge.ga/`
+where the -L is to follow redirects. This leads us to a webpage of the form:
+```html
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <title>i can make my cookie now :D</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" type= "text/css" href= "/static/css/theme.css">
+    <script src="/static/js/script.js"></script>
+    <link rel="shortcut icon preconnect" href="/static/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <flag>ictf{c00k13s_@re_S0oO_co0L}</flag>
+  </body>
+</html>
+```
+Therefore we can just submit `.flag ictf{c00k13s_@re_S0oO_co0L}`.
+
+
+
 ## A Stegosaurus?
 **Description**
 
@@ -111,3 +151,24 @@ If you open the source code, you find a comment in the HTML:
 If you inspect source, and uncomment this line of HTML, you get a second input in the form.  
 Now, using the name of the challenge, you can enter `admin` for the username, and `password` for the password.  
 This gives a flag of ictf{1nv1sIbl3_fl@g5} you can just submit `.flag ictf{1nv1sIbl3_fl@g5}`
+
+## nucleotides
+
+**Description**
+
+Nucleotides are the subunits which make up the DNA. The 4 kinds of nucleotides in the DNA are distinguished by their nitrogen heterocycle substituents: adenine(A), cytosine(C), guanine(G), and thymine(T).
+In a parallel universe, the DNA is composed of 8 kinds of nucleotides instead of 4: A, C, G, K, M, R, T, and U. Find out how many unique strands of length 8 (may contain repeated nucleotides) are possible in this universe. Also, find the 250th strand (counting starts from 1) in this set, after this set is sorted alphabetically.
+
+**Attachments**
+
+https://github.com/ainzs-evil-twin/ictf-Feb-2021/blob/main/nucleotides/README.md
+
+**Category**
+
+Programming/Maths
+
+**Explanation**
+
+For each of the 8 characters in the DNA string, there are 8 options to choose from.  
+Therefore, there are a total of `8*8*8*8*8*8*8*8 = 8^8 = 16777216` unique strands of length 8.
+Therefore the flag is ictf{16777216_AAAAAKUC} and we can just submit `.flag ictf{16777216_AAAAAKUC}`.
