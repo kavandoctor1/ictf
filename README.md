@@ -86,7 +86,7 @@ Web Explotation
 **Explanation**
 Doing `curl -i` on the url, shows that it seems to send a cookie of the form `sugar=False`.  
 Therefore, we can try and override that cookie by doing something of the form:
-`curl -L -v --cookie "sugar=True" -i http://oreos.ctfchallenge.ga/`
+```curl -L -v --cookie "sugar=True" -i http://oreos.ctfchallenge.ga/```
 where the -L is to follow redirects. This leads us to a webpage of the form:
 ```html
 <!DOCTYPE html>
