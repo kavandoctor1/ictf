@@ -86,9 +86,12 @@ Web Explotation
 **Explanation**  
 
 If you open the source code, you find a comment in the HTML:
-`<!-- <input name='password' placeholder='Password' type='password' value=""> -->`
+```html
+<!-- <input name='password' placeholder='Password' type='password' value=""> -->
+```
 
-If you inspect source, and uncomment this line of HTML, you get a second input in the form. Now, using the name of the challenge, you can enter `admin` for the username, and `password` for the password.
+If you inspect source, and uncomment this line of HTML, you get a second input in the form.  
+Now, using the name of the challenge, you can enter `admin` for the username, and `password` for the password.  
 This gives a flag of ictf{1nv1sIbl3_fl@g5} you can just submit `.flag ictf{1nv1sIbl3_fl@g5}`
 
 
