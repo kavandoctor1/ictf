@@ -70,6 +70,23 @@ This prints out `ancientcryptoisfascinating` so we can just submit `.flag ictf{a
 
 
 
+## A Stegosaurus?
+**Description**
+
+What a cool picture of a dinosaur :)
+
+**Attachments**
+
+https://fdownl.ga/A7C8E8F4CD
+
+**Category**
+
+Forensics
+
+**Explanation**
+Put the image into a hex editor like https://hexed.it/, and towards the end you find the flag in the hex: ictf{w0w_st3gan0graphy!} so you can just submit `.flag ictf{w0w_st3gan0graphy!}`  
+
+
  ## adminpassword
 **Description**  
 >My friend Toby said this website had the most difficult protection in the world! Apparently, something is hidden! Could you help me break in?  
@@ -93,17 +110,3 @@ If you open the source code, you find a comment in the HTML:
 If you inspect source, and uncomment this line of HTML, you get a second input in the form.  
 Now, using the name of the challenge, you can enter `admin` for the username, and `password` for the password.  
 This gives a flag of ictf{1nv1sIbl3_fl@g5} you can just submit `.flag ictf{1nv1sIbl3_fl@g5}`
-
-
-
-<!-- ## Name
-**Description**
->
-
-**Attachments**
-
-**Category**
-
-**Explanation**
-
- -->
